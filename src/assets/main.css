@@ -8,11 +8,10 @@
 
 #app-container,
 #display-container,
-#button-panels-container {
+#button-panel-container {
   display: flex;
   flex-direction: column;
   width: 700px;
-  background-color: red;
 }
 
 /* Display */
@@ -25,4 +24,20 @@
   padding: 0 10px;
   justify-content: flex-end;
   align-items: end;
+}
+
+/* Button Panel */
+
+#button-panel-container div {
+  height: 100px;
+}
+
+/* Button */
+
+#button-container {
+  width: 25%;
+  height: 100%;
+  font-size: 2em;
+  font-weight: bolder;
+  border: 1px solid black;
 }

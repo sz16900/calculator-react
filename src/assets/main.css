@@ -1,0 +1,28 @@
+/* RESET */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#app-container,
+#display-container,
+#button-panels-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  background-color: red;
+}
+
+/* Display */
+
+#display-container {
+  background-color: gray;
+  height: 100px;
+  color: white;
+  font-weight: bolder;
+  padding: 0 10px;
+  justify-content: flex-end;
+  align-items: end;
+}

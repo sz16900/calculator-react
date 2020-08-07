@@ -1,13 +1,12 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import '../assets/main.css';
 
-const Display = props => {
+const Display = (props) => {
   const { result } = props;
   return (
-    <div>
-      {' '}
-      {result}
-      {' '}
+    <div id="display-container">
+      <p>{result}</p>
     </div>
   );
 };

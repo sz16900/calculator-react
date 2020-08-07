@@ -5,7 +5,7 @@ import Display from './Display';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app-container">
       <Display />
       <ButtonPanel />
     </div>

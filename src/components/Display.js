@@ -10,6 +10,7 @@ const DisplayStyled = styled.div`
   padding: 0 10px;
   justify-content: flex-end;
   align-items: end;
+  font-size: 3em;
 `;
 
 const Display = (props) => {

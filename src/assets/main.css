@@ -31,13 +31,3 @@
 #button-panel-container div {
   height: 100px;
 }
-
-/* Button */
-
-#button-container {
-  width: 25%;
-  height: 100%;
-  font-size: 2em;
-  font-weight: bolder;
-  border: 1px solid black;
-}

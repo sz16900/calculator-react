@@ -1,68 +1,93 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [React Project: Calculator App]
 
-## Available Scripts
+In this project, I am going to make a React calculator application to demonstrate mastery of building React components by following step-by-step guidelines from a fake company based in "France". Awesomized with pure CSS. This project is completed by Seth Zea, in partial requirements of the Microverse cirriculum.
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## Screenshots
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Desktop
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Mobile
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Demo
 
-### `yarn build`
+[Live Link](https://early-dawn-bird-87654356.herokuapp.com/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- HTML5
+- CSS3
+- Font Awesome
+- Google Fonts
+- W3 Validators
+- Bootstrap
+- Javascript
+- React
+---
 
-### `yarn eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Node.js (for Stylelint)
+- Web Browser
+- CLI
+- IDE
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To get a local copy up and running follow these simple example steps.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Clone the project unto your local machine
+- `cd` into the project directory
+- on the root folder please type: npm start
+- on your browser, make sure you point to the right address (i.e: http://localhost:3000/)
 
-## Learn More
+### 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions, issues and feature requests are welcome! Start by:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Forking the project
+- Cloning the project to your local machine
+- `cd` into the project directory
+- Run `git checkout -b your-branch-name`
+- Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Authors
 
-### Analyzing the Bundle Size
+👤 **Seth Zea**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Website: [seth zea](https://sethzea.com/)
+- Github: [@sz16900](https://github.com/sz16900)
+- Twitter: [@_sethzea_](https://twitter.com/_sethzea_)
+- Linkedin: [linkedin](https://www.linkedin.com/in/seth-zea-9481a8148/)
+- Email: zea.seth@gmail.com
 
-### Making a Progressive Web App
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Show your support
 
-### Advanced Configuration
+Give a ⭐️ if you like this project!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Acknowledgments
 
-### Deployment
+- [Microverse](https://microverse.org)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+---
 
-### `yarn build` fails to minify
+## Future Features
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+
+---

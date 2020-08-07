@@ -24,3 +24,8 @@ body {
   flex-direction: column;
   width: 700px;
 }
+
+#display-container {
+  flex-direction: row;
+  align-items: flex-end;
+}

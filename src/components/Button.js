@@ -8,7 +8,7 @@ const ButtonStyled = styled.button`
   font-size: 2em;
   font-weight: bolder;
   border: 1px solid black;
-  background: ${(props) => (props.color ? '#F2913E' : '#E0E0E0')};
+  background-color: ${(props) => props.color};
 `;
 
 const Button = (props) => {
@@ -22,6 +22,8 @@ const Button = (props) => {
 
 Button.propTypes = {
   name: propTypes.string.isRequired,
+  color: propTypes.string,
+  wide: propTypes.bool,
 };
 
 export default Button;

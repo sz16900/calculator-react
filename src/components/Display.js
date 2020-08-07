@@ -1,13 +1,23 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import '../assets/main.css';
+import styled from 'styled-components';
+
+const DisplayStyled = styled.div`
+  background-color: gray;
+  height: 100px;
+  color: white;
+  font-weight: bolder;
+  padding: 0 10px;
+  justify-content: flex-end;
+  align-items: end;
+`;
 
 const Display = (props) => {
   const { result } = props;
   return (
-    <div id="display-container">
+    <DisplayStyled id="display-container">
       <p>{result}</p>
-    </div>
+    </DisplayStyled>
   );
 };
 

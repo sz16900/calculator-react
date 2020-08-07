@@ -13,21 +13,3 @@
   flex-direction: column;
   width: 700px;
 }
-
-/* Display */
-
-#display-container {
-  background-color: gray;
-  height: 100px;
-  color: white;
-  font-weight: bolder;
-  padding: 0 10px;
-  justify-content: flex-end;
-  align-items: end;
-}
-
-/* Button Panel */
-
-#button-panel-container div {
-  height: 100px;
-}

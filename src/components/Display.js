@@ -1,13 +1,19 @@
 import React from 'react';
 import propTypes from 'prop-types';
 
-const Display = (props) => {
+const Display = props => {
   const { result } = props;
-  return <div> {result} </div>;
+  return (
+    <div>
+      {' '}
+      {result}
+      {' '}
+    </div>
+  );
 };
 
 Display.propTypes = {
-  result: propTypes.string.isRequired,
+  result: propTypes.string,
 };
 // Set default value
 Display.defaultProps = {

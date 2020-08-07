@@ -64,6 +64,7 @@ Contributions, issues and feature requests are welcome! Start by:
 
 👤 **Seth Zea**
 
+- Website: [seth zea](https://sethzea.com/)
 - Github: [@sz16900](https://github.com/sz16900)
 - Twitter: [@_sethzea_](https://twitter.com/_sethzea_)
 - Linkedin: [linkedin](https://www.linkedin.com/in/seth-zea-9481a8148/)
@@ -82,10 +83,6 @@ Give a ⭐️ if you like this project!
 ---
 
 ## Future Features
-
-- A better mobile friendly experience
-- More information inside the website
-- Better modularization of objects
 
 ---
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from './Button';
 import styled from 'styled-components';
+import Button from './Button';
 
 const ButtonPanelStyled = styled.div`
   height: 100px;

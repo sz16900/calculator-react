@@ -1,0 +1,31 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app-container,
+#display-container,
+#button-panel-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+#display-container {
+  flex-direction: row;
+  align-items: flex-end;
+}

@@ -12,7 +12,7 @@ const ButtonPanel = () => (
       <Button name="AC" />
       <Button name="+/-" />
       <Button name="%" />
-      <Button name="+" color="orange" />
+      <Button name="÷" color="orange" />
     </ButtonPanelStyled>
     <ButtonPanelStyled className="group-2">
       <Button name="7" />

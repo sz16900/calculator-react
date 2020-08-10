@@ -13,7 +13,7 @@ const DisplayStyled = styled.div`
   font-size: 3em;
 `;
 
-const Display = (props) => {
+const Display = props => {
   const { result } = props;
   return (
     <DisplayStyled id="display-container">

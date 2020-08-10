@@ -1,4 +1,4 @@
-import operate from './operate.js';
+import operate from './operate';
 
 const calculate = (dataObj, buttonName) => {
   const { total, next, operation } = dataObj;

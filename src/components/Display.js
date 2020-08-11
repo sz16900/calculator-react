@@ -18,14 +18,14 @@ const DisplayStyled = styled.div`
 `;
 
 const ResultStyled = styled.p`
-  font-size: ${(props) => (props.result.length > 25 ? '1.5em' : '3em')};
+  font-size: ${props => (props.result.length > 25 ? '1.5em' : '3em')};
 `;
 
-const Display = (props) => {
+const Display = props => {
   const { result, operation } = props;
   return (
     <DisplayStyled id="display-container">
-      <h1 className={'operator'}>{operation}</h1>
+      <h1 className="operator">{operation}</h1>
       <ResultStyled result={result}>{result}</ResultStyled>
     </DisplayStyled>
   );

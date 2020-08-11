@@ -21,7 +21,7 @@ class App extends React.Component {
     this.setState(calcResult);
   };
 
-  render() {
+  render = () => {
     const copyObject = this.state;
     return (
       <div id="app-container">
@@ -32,7 +32,7 @@ class App extends React.Component {
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
-  }
+  };
 }
 
 export default App;

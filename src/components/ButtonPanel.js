@@ -7,7 +7,7 @@ const ButtonPanelStyled = styled.div`
   height: 100px;
 `;
 
-const ButtonPanel = (props) => {
+const ButtonPanel = props => {
   const { clickHandler } = props;
   return (
     <div id="button-panel-container">

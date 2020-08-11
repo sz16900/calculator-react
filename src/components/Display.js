@@ -14,6 +14,7 @@ const DisplayStyled = styled.div`
   justify-content: flex-end;
   flex-direction: row;
   align-items: flex-end;
+  overflow: hidden;
   word-wrap: break-word;
 `;
 

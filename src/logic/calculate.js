@@ -38,7 +38,7 @@ const calculate = (dataObj, buttonName) => {
   }
 
   //   Make sure '.' doesnt repeat
-  if (buttonName === '.' && !next.includes('.') && next) {
+  if (buttonName === '.' && next && !next.includes('.')) {
     return {
       total,
       next: `${next}.`,

@@ -18,14 +18,8 @@ body {
 }
 
 #app-container,
-#display-container,
 #button-panel-container {
   display: flex;
   flex-direction: column;
   width: 700px;
-}
-
-#display-container {
-  flex-direction: row;
-  align-items: flex-end;
 }

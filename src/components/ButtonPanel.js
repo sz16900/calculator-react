@@ -7,7 +7,7 @@ const ButtonPanelStyled = styled.div`
   height: 100px;
 `;
 
-const ButtonPanel = props => {
+const ButtonPanel = (props) => {
   const { clickHandler } = props;
   return (
     <div id="button-panel-container">
@@ -37,7 +37,7 @@ const ButtonPanel = props => {
       </ButtonPanelStyled>
       <ButtonPanelStyled className="group-5">
         <Button name="0" wide handleClick={clickHandler} />
-        <Button name="," handleClick={clickHandler} />
+        <Button name="." handleClick={clickHandler} />
         <Button name="=" color="orange" handleClick={clickHandler} />
       </ButtonPanelStyled>
     </div>

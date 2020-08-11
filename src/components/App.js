@@ -26,9 +26,8 @@ class App extends React.Component {
     return (
       <div id="app-container">
         <Display
-          result={
-            copyObject.next || copyObject.total || '0' || copyObject.operation
-          }
+          result={copyObject.next || copyObject.total || '0'}
+          operation={copyObject.operation || ' '}
         />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>

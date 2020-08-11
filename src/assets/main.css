@@ -23,3 +23,9 @@ body {
   flex-direction: column;
   width: 700px;
 }
+
+.operator {
+  position: absolute;
+  font-size: 3em;
+  top: -2%;
+}

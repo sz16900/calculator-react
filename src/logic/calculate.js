@@ -13,6 +13,15 @@ const calculate = (dataObj, buttonName) => {
     };
   }
 
+  //  Stop amassing zeros
+  if (buttonName === '0' && !total && !next) {
+    return {
+      total,
+      next,
+      operation,
+    };
+  }
+
   if (numbers.includes(buttonName)) {
     return {
       total,

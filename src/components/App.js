@@ -16,17 +16,19 @@ class App extends React.Component {
     };
   }
   handleClick(buttonName) {
-    const { copyState } = this.state;
-    const resultObject = calculate(copyState, buttonName);
+    const { ...copyState } = this.state;
+    const { ...resultObject } = calculate(copyState, buttonName);
     this.setState({
-      resultObject,
+      total: resultObject.total,
+      next: resultObject.next,
+      operation: resultObject.operation,
     });
   }
   render() {
     const copyObject = this.state;
     return (
       <div id="app-container">
-        <Display result={copyObject.total || copyObject.next || '0'} />
+        <Display result={copyObject.next || copyObject.total || '0'} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );

@@ -89,7 +89,7 @@ const calculate = (dataObj, buttonName) => {
   if (buttonName === '%' && next && !total) {
     return {
       total: null,
-      next: operate(next, 1, buttonName).toString(),
+      next: operate(next, total, buttonName).toString(),
       operation: null,
     };
   }

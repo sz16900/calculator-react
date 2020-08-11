@@ -8,7 +8,7 @@ In this project, I am going to make a React calculator application to demonstrat
 
 ### Desktop
 
-### Mobile
+![Web](https://github.com/sz16900/calculator-react/blob/milestone-5-event-handlers/src/assets/images/calc.png?raw=true)
 
 ---
 

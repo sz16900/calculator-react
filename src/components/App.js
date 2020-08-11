@@ -26,7 +26,11 @@ class App extends React.Component {
     const copyObject = this.state;
     return (
       <div id="app-container">
-        <Display result={copyObject.next || copyObject.total || '0'} />
+        <Display
+          result={
+            copyObject.next || copyObject.total || '0' || copyObject.operation
+          }
+        />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );

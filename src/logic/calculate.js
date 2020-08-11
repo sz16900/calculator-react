@@ -64,7 +64,7 @@ const calculate = (dataObj, buttonName) => {
 
   if (operations.includes(buttonName) && next && total) {
     return {
-      total: operate(total, next, buttonName).toString(),
+      total: operate(total, next, buttonName),
       next: null,
       operation: buttonName,
     };
@@ -72,7 +72,7 @@ const calculate = (dataObj, buttonName) => {
 
   if (buttonName === '=' && next && total) {
     return {
-      total: operate(total, next, operation).toString(),
+      total: operate(total, next, operation),
       next: null,
       operation: null,
     };

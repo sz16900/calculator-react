@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import propTypes from 'prop-types';
 import Button from './Button';
 
 const ButtonPanelStyled = styled.div`
   height: 100px;
 `;
 
-const ButtonPanel = (props) => {
+const ButtonPanel = props => {
   const { clickHandler } = props;
   return (
     <div id="button-panel-container">
@@ -30,8 +31,8 @@ const ButtonPanel = (props) => {
       </ButtonPanelStyled>
       <ButtonPanelStyled className="group-4">
         <Button name="1" handleClick={clickHandler} />
+        <Button name="2" handleClick={clickHandler} />
         <Button name="3" handleClick={clickHandler} />
-        <Button name="4" handleClick={clickHandler} />
         <Button name="+" color="orange" handleClick={clickHandler} />
       </ButtonPanelStyled>
       <ButtonPanelStyled className="group-5">
@@ -41,6 +42,10 @@ const ButtonPanel = (props) => {
       </ButtonPanelStyled>
     </div>
   );
+};
+
+ButtonPanel.propTypes = {
+  clickHandler: propTypes.func.isRequired,
 };
 
 export default ButtonPanel;

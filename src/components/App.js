@@ -15,15 +15,13 @@ class App extends React.Component {
       operation: null,
     };
   }
+
   handleClick(buttonName) {
-    const { ...copyState } = this.state;
-    const { ...resultObject } = calculate(copyState, buttonName);
-    this.setState({
-      total: resultObject.total,
-      next: resultObject.next,
-      operation: resultObject.operation,
-    });
+    const copyState = this.state;
+    const calcResult = calculate(copyState, buttonName);
+    this.setState(calcResult);
   }
+
   render() {
     const copyObject = this.state;
     return (

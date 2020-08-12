@@ -16,9 +16,7 @@ class App extends React.Component {
   }
 
   handleClick = buttonName => {
-    const { ...copyState } = this.state;
-    const { ...calcResult } = calculate(copyState, buttonName);
-    this.setState(calcResult);
+    this.setState(prevState => calculate(prevState, buttonName));
   };
 
   render = () => {

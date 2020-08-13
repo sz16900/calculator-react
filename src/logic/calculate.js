@@ -13,6 +13,15 @@ const calculate = (dataObj, buttonName) => {
     };
   }
 
+  //  Stop amassing zeros
+  if (buttonName === '0' && !total && !next) {
+    return {
+      total,
+      next,
+      operation,
+    };
+  }
+
   if (numbers.includes(buttonName)) {
     return {
       total,
@@ -38,12 +47,21 @@ const calculate = (dataObj, buttonName) => {
   }
 
   //   Make sure '.' doesnt repeat
-  if (buttonName === '.' && !next.includes('.') && next) {
-    return {
-      total,
-      next: `${next}.`,
-      operation,
-    };
+  if (buttonName === '.') {
+    if (!next) {
+      return {
+        total,
+        next: '0.',
+        operation,
+      };
+    }
+    if (next && !next.includes('.')) {
+      return {
+        total,
+        next: `${next}.`,
+        operation,
+      };
+    }
   }
 
   if (operations.includes(buttonName) && next && !total) {
@@ -64,7 +82,7 @@ const calculate = (dataObj, buttonName) => {
 
   if (operations.includes(buttonName) && next && total) {
     return {
-      total: operate(total, next, buttonName).toString(),
+      total: operate(total, next, buttonName),
       next: null,
       operation: buttonName,
     };
@@ -72,7 +90,7 @@ const calculate = (dataObj, buttonName) => {
 
   if (buttonName === '=' && next && total) {
     return {
-      total: operate(total, next, operation).toString(),
+      total: operate(total, next, operation),
       next: null,
       operation: null,
     };

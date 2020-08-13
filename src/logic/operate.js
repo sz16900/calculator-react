@@ -21,15 +21,16 @@ const operate = (numberOne, numberTwo, operation) => {
       result = operandOne.times(operandTwo);
       break;
     case '÷':
-      if (numberOne === 0 || numberTwo === 0) {
-        result = 'Cannot divide by zero';
-      } else {
+      try {
         result = operandOne.div(operandTwo);
+      } catch (e) {
+        // alert('No division by zero or something went wrong with your math');
+        result = null;
       }
       break;
     default:
   }
-  return result.toString();
+  return result ? result.toString() : 'No division by zero';
 };
 
 export default operate;

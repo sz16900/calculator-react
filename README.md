@@ -28,6 +28,8 @@ In this project, I am going to make a React calculator application to demonstrat
 - Bootstrap
 - Javascript
 - React
+- Bootstrap
+
 ---
 
 ### Prerequisites

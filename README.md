@@ -1,6 +1,6 @@
 # [React Project: Calculator App]
 
-In this project, I am going to make a React calculator application to demonstrate mastery of building React components by following step-by-step guidelines from a fake company based in "France". Awesomized with pure CSS. This project is completed by Seth Zea, in partial requirements of the Microverse cirriculum.
+In this project, I am going to make a React calculator application to demonstrate mastery of building React components by following step-by-step guidelines from a fake company based in "France". Awesomized with pure CSS. This project is completed by Seth Zea, in partial requirements of the Microverse cirriculum...
 
 ---
 
